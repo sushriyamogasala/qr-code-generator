@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <script type="text/javascript" src="script.js"></script>
+
+    <div class = "grid">
+        <h2 align="center">QR Code Generator</h2>
+        <center>
+            <img src="" alt="" id="img">
+        </center>
+        <select name="scroll" id="size">
+            <option value="100">100 x 100</option>
+            <option value="150">150 x 150</option>
+            <option value="200">200 x 200</option>
+            <option value="250" selected>250 x 250</option>
+            <option value="300">300 x 300</option>
+        </select>
+        <br><br>
+        <textarea name="mytext" id="qrtext" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Generate QR Code" onclick="genQR()">
+
+        <p>Developed by Sushriya </p>
+    </div>
+</body>
+</html>
