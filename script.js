@@ -1,25 +1,5 @@
 //alert('Hello world');
-/*function showit()
-        {
-            var myimg = document.getElementById('myimg') ;
-            var myoption = document.getElementById('myoption').value ;
-            if (myoption == 'google')
-            {
-                myimg.src = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png';
-            }
-            else if (myoption == 'bing')
-            {
-                myimg.src = 'https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg';
-            }
-                else if (myoption == 'facebook')
-            {
-                myimg.src = 'https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg';
-            }
-            else
-            {
-                alert('picture not available');
-            }
-        }*/
+
 
 function genQR()
 {
